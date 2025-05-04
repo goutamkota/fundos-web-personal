@@ -156,7 +156,7 @@ export function InvestorsTable() {
   return (
     <div className="w-full">
       <div className="flex justify-between items-center py-4 bg-[#2A2A2B] px-5">
-        <h1 className="text-2xl text-zinc-400">INVESTORS ONBOARDED</h1>
+        <h1 className="text-2xl text-zinc-400 py-5">INVESTORS ONBOARDED</h1>
         <Input
           placeholder="Filter emails..."
           value={(table.getColumn("email")?.getFilterValue() as string) ?? ""}
